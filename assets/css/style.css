@@ -1,0 +1,11 @@
+body {
+    background-image: url(../images/vader.jpg);
+}
+
+.panel {
+    font-weight: 700;
+}
+
+.panel-title {
+    font-weight: 700;
+}
