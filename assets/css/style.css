@@ -1,17 +1,20 @@
 body {
-    background-image: url(../images/vader.jpg);
+    /* background-image: url(../images/maxresdefault.jpg); */
     font-family: 'Poller One', cursive;
+    background-color: black;
+    color: whitesmoke;
+    
 }
 
 .panel {
     font-weight: 700;
     background-color: black!important;
-    color: yellow;
+    color: whitesmoke;
 }
 
 .panel-title {
     font-weight: 700;
-    color:yellow;
+    color:whitesmoke;
     background-color: black;
 }
 .panel-footer{
