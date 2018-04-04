@@ -1,0 +1,86 @@
+<div class="row" id="first">
+      <div class="col-xs-3">
+        <div class="selectable panel panel-default" id="fighter1">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">Your Fighter</h3>
+          </div>
+          <div class="panel-body">
+
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <img src="assets/images/scorpion.png" width="100%" />
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="200" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                    200HP
+                  </div>
+                </div>
+              </div>
+              <div class="panel-footer text-center">Scorpion</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-3">
+        <div class="selectable panel panel-default" id="fighter2">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">Your Fighter</h3>
+          </div>
+          <div class="panel-body">
+
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <img src="assets/images/subzero.png" width="100%" />
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="180" aria-valuemin="0" aria-valuemax="180" style="width: 100%;">
+                    180HP
+                  </div>
+                </div>
+              </div>
+              <div class="panel-footer text-center">Sub Zero</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-3">
+        <div class="selectable panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center" id="fighter3">Your Fighter</h3>
+          </div>
+          <div class="panel-body">
+
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <img src="assets/images/smoke.png" width="100%" />
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="260" aria-valuemin="0" aria-valuemax="260" style="width: 100%;">
+                    260HP
+                  </div>
+                </div>
+              </div>
+              <div class="panel-footer text-center">Smoke</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-3">
+        <div class="selectable panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center" id="fighter4">Your Fighter</h3>
+          </div>
+          <div class="panel-body">
+
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <img src="assets/images/reptile.png" width="100%" />
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="240" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                    240HP
+                  </div>
+                </div>
+              </div>
+              <div class="panel-footer text-center">Reptile</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

@@ -6,31 +6,4 @@ body {
     
 }
 
-.panel {
-    font-weight: 700;
-    background-color: black!important;
-    color: whitesmoke;
-}
 
-.panel-title {
-    font-weight: 700;
-    color:whitesmoke;
-    background-color: black;
-}
-.panel-footer{
-    background-color: black;
-    border-color: black;
-}
-
-.panel-default > .panel-heading {
-    border-color: black;
-    background: black;
-  }
-
-.panel-default{
-    border-color:black!important;
-}
-
-.page-header{
-    border-color: black;
-}
