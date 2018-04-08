@@ -5,12 +5,13 @@ var fighters = {
 };
 var attack = 0;
 var counterAttack = function(){
-   return Math.floor(Math.random() * 20) + 5; 
+   return Math.floor(Math.random() * 20) + 7; 
 };//set the counter attack equal to a random number
 var playerChosen = false;
 var opponentChosen = false;
 var player = 0;
 var opponent = 0;
+var defeated = 0;
 
 $(document).ready(function () {
 
@@ -65,12 +66,26 @@ $(document).ready(function () {
         $(".player").text(player+":HP");
         $(".opponent").text(opponent+":HP");
         $("#header").text("You Delt "+attack+" damage and received "+counterAttack()+" damage!");
-        if(opponent <= 0){
+        if(player <=0){
+            $("#header").text("You have lost the game!");
+            setTimeout(function(){
+                location.reload();
+            },3000);
+        }
+        else if(opponent <= 0  && defeated < 2){
+            defeated++;
             opponentChosen = false;
             $("#header").text("You have defeated your enemy! Chose another!");
             setTimeout(function(){
-                $(".playerToDefeat").hide();
+                $(".playerToDefeat").hide(200);
             }, 500);
+        }
+        else if(opponent <=0 && defeated >= 2){
+            $("#header").text("You have vanquished your enemies and won the game!");
+            $(".playerToDefeat").hide(200);
+            setTimeout(function(){
+                location.reload();
+            },3000);
         }
     });
 
