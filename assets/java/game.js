@@ -5,7 +5,7 @@ var fighters = {
 };
 var attack = 0;
 var counterAttack = function(){
-   return Math.floor(Math.random() * 20) + 7; 
+   return Math.floor(Math.random() * 20) + 5; 
 };//set the counter attack equal to a random number
 var playerChosen = false;
 var opponentChosen = false;
